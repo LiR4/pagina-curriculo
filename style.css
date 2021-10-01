@@ -18,6 +18,7 @@ body {
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
+  /*Tamanho do quadro onde fica as info*/
   background: #fff;
   margin: 50px;
   display: grid;
@@ -40,7 +41,7 @@ body {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-
+  /*== imagem redonda certa ==*/
 .perfilTexto .imgP {
   position: relative;
   width: 200px;
@@ -50,7 +51,6 @@ body {
 }
 
 .perfilTexto .imgP img {
-  /*== imagem redonda certa ==*/
   position: absolute;
   top: 0;
   left: 0;
@@ -58,6 +58,7 @@ body {
   height: 100%;
   object-fit: cover;
 }
+/*==============================*/
 
 .perfilTexto h2 {
   /*== Nome fonte / cor ==*/
