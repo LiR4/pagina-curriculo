@@ -41,8 +41,9 @@ body {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-  /*== imagem redonda certa ==*/
+
 .perfilTexto .imgP {
+  /*== imagem redonda certa ==*/
   position: relative;
   width: 200px;
   height: 200px;
@@ -248,6 +249,8 @@ p {
   color: #03a9f4;
   font-size: 18px;
 }
+
+/*=== media queries ===*/
 
 @media (max-width: 1000px) {
   .container {
